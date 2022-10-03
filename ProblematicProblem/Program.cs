@@ -80,7 +80,7 @@ namespace ProblematicProblem
                         Thread.Sleep(500);
                     }
                 Console.WriteLine();
-
+                //counts activities to use as max number for the rng
                  int randomNumber = rng.Next(activities.Count);
                  string randomActivity = activities[randomNumber];
                     if (userAge < 21 && randomActivity == "Wine Tasting")
